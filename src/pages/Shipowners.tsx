@@ -33,7 +33,7 @@ const Shipowners = () => (
 
     <section className="py-24 bg-background">
       <div className="container">
-        <SectionHeading label="Pool Benefits" title="Why Join SRTT Marine Pools" description="Our tanker pools offer shipowners a proven platform to maximise vessel earnings while maintaining full commercial transparency." />
+        <SectionHeading label="Pool Benefits" title="Why Join APC Marine Pools" description="Our tanker pools offer shipowners a proven platform to maximise vessel earnings while maintaining full commercial transparency." />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {benefits.map((b, i) => (
             <motion.div key={b.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="flex gap-6 p-6 bg-card rounded-xl shadow-card">

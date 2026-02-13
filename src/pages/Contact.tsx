@@ -12,7 +12,7 @@ import { useToast } from "@/hooks/use-toast";
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "8 Temasek Boulevard, Suntec Tower 3, #22-02A, Singapore 038988" },
   { icon: Phone, label: "Phone", value: "+65 6291 2122" },
-  { icon: Mail, label: "Email", value: "info@srttmarine.com" },
+  { icon: Mail, label: "Email", value: "info@apcmarine.com" },
   { icon: Clock, label: "Office Hours", value: "Mon – Fri: 09:00 – 18:00 (SGT)" },
 ];
 

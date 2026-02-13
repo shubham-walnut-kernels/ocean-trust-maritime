@@ -17,20 +17,20 @@ const esgPrinciples = [
 
 const About = () => (
   <>
-    <PageHero title="About SRTT Marine" subtitle="Leadership Through Service – Delivering excellence in tanker pool operations worldwide" image={aboutImg} />
+    <PageHero title="About APC Marine" subtitle="Leadership Through Service – Delivering excellence in tanker pool operations worldwide" image={aboutImg} />
 
     <section className="py-24 bg-background">
       <div className="container max-w-4xl">
         <SectionHeading label="Our Story" title="Dedicated to Quality Shipping" />
         <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
           <p>
-            At SRTT Marine, we go the distance with you. We are dedicated to delivering quality shipping anchored on reliability, safety, efficiency, while ensuring the utmost transparency. As a leading tanker pool operator, we specialise in the commercial asset management of chemical and oil tankers, trading worldwide in chemicals, vegetable oils, petroleum products, and crude oil.
+            At APC Marine, we go the distance with you. We are dedicated to delivering quality shipping anchored on reliability, safety, efficiency, while ensuring the utmost transparency. As a leading tanker pool operator, we specialise in the commercial asset management of chemical and oil tankers, trading worldwide in chemicals, vegetable oils, petroleum products, and crude oil.
           </p>
           <p>
             Our experienced team combines deep maritime expertise with a commercial approach that maximises value for both shipowners and charterers. With a track record of over 20,000 vessel days yearly and operations spanning more than 2,000 ports globally, we have established ourselves as a trusted name in the tanker pool industry.
           </p>
           <p>
-            SRTT Marine is committed to conducting business ethically and responsibly, in adherence to internationally recognised Environmental, Social and Governance standards, as set forth in the Ten Principles of the UN Global Compact.
+            APC Marine is committed to conducting business ethically and responsibly, in adherence to internationally recognised Environmental, Social and Governance standards, as set forth in the Ten Principles of the UN Global Compact.
           </p>
         </div>
       </div>

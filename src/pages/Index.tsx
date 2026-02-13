@@ -119,15 +119,15 @@ const Index = () => {
               custom={0}
             >
               <SectionHeading
-                label="About SRTT Marine"
+                label="About APC Marine"
                 title="We Go the Distance With You"
                 align="left"
               />
               <p className="text-muted-foreground leading-relaxed mb-6">
-                At SRTT Marine, we are dedicated to delivering quality shipping anchored on reliability, safety, efficiency, while ensuring the utmost transparency. As a leading tanker pool operator, we specialise in the commercial asset management of chemical and oil tankers, trading worldwide in chemicals, vegetable oils, petroleum products, and crude oil.
+                At APC Marine, we are dedicated to delivering quality shipping anchored on reliability, safety, efficiency, while ensuring the utmost transparency. As a leading tanker pool operator, we specialise in the commercial asset management of chemical and oil tankers, trading worldwide in chemicals, vegetable oils, petroleum products, and crude oil.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                SRTT Marine is committed to conducting business ethically and responsibly, in adherence to internationally recognised Environmental, Social and Governance standards, as set forth in the Ten Principles of the UN Global Compact.
+                APC Marine is committed to conducting business ethically and responsibly, in adherence to internationally recognised Environmental, Social and Governance standards, as set forth in the Ten Principles of the UN Global Compact.
               </p>
               <Link to="/about">
                 <Button variant="outline" className="border-ocean text-ocean hover:bg-ocean hover:text-accent-foreground">
@@ -179,7 +179,7 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-lg gradient-ocean flex items-center justify-center mb-6">
                   <s.icon className="w-6 h-6 text-accent-foreground" />
                 </div>
-                <h3 className="text-xl font-display font-semibold text-foreground mb-3">{s.title}</h3>
+            <h3 className="text-xl font-display font-semibold text-foreground mb-3">{s.title}</h3>
                 <p className="text-muted-foreground leading-relaxed text-sm">{s.desc}</p>
               </motion.div>
             ))}
@@ -191,7 +191,7 @@ const Index = () => {
       <section className="py-24 bg-background">
         <div className="container">
           <SectionHeading
-            label="Why SRTT Marine"
+            label="Why APC Marine"
             title="Built on Trust & Transparency"
             description="Our commitment to safety, sustainability, and operational excellence sets us apart in the global maritime industry."
           />
@@ -233,7 +233,7 @@ const Index = () => {
               Together We Go Further
             </h2>
             <p className="text-lg text-primary-foreground/70 max-w-xl mx-auto mb-10">
-              Whether you're a shipowner looking to maximise earnings or a charterer seeking reliable cargo transport, SRTT Marine is your trusted partner.
+              Whether you're a shipowner looking to maximise earnings or a charterer seeking reliable cargo transport, APC Marine is your trusted partner.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/shipowners">
