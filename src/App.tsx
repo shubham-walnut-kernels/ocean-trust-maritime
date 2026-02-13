@@ -21,7 +21,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/ocean-trust-maritime/">
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Header />
         <main>
           <Routes>
