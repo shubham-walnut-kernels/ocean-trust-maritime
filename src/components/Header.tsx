@@ -47,7 +47,7 @@ const Header = () => {
         <Link to="/" className="flex items-center gap-2">
           <div className="flex flex-col">
             <span className="text-2xl font-display font-bold text-primary-foreground tracking-wide">
-              SRTT Marine
+              APC Marine
             </span>
             <span className="text-[10px] uppercase tracking-[0.3em] text-ocean-light">
               Tanker Pools

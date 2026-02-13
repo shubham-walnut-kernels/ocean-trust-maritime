@@ -9,7 +9,7 @@ const Footer = () => (
         <div>
           <div className="flex items-center gap-2 mb-4">
             <Anchor className="w-6 h-6 text-ocean-light" />
-            <span className="text-xl font-display font-bold">SRTT Marine</span>
+            <span className="text-xl font-display font-bold">APC Marine</span>
           </div>
           <p className="text-sm text-primary-foreground/60 leading-relaxed">
             A leading tanker pool operator specialising in the commercial asset management of chemical and oil tankers, trading worldwide.
@@ -79,7 +79,7 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-3 text-sm text-primary-foreground/60">
               <Mail className="w-4 h-4 shrink-0 text-ocean-light" />
-              <span>info@srttmarine.com</span>
+              <span>info@apcmarine.com</span>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ const Footer = () => (
 
       <div className="border-t border-primary-foreground/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-xs text-primary-foreground/40">
-          © {new Date().getFullYear()} SRTT Marine Pte Ltd. All rights reserved.
+          © {new Date().getFullYear()} APC Marine Pte Ltd. All rights reserved.
         </p>
         <div className="flex gap-6">
           <Link to="/contact" className="text-xs text-primary-foreground/40 hover:text-primary-foreground/70 transition-colors">

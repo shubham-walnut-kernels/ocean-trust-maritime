@@ -11,14 +11,14 @@ const fadeUp = {
 const newsItems = [
   {
     date: "15 Jan 2026",
-    title: "SRTT Marine Expands Chemical Tanker Pool with New Vessel Additions",
-    excerpt: "Two new 19,900 DWT IMO II chemical tankers have joined the SRTT Marine pool, strengthening our global chemical trading coverage.",
+    title: "APC Marine Expands Chemical Tanker Pool with New Vessel Additions",
+    excerpt: "Two new 19,900 DWT IMO II chemical tankers have joined the APC Marine pool, strengthening our global chemical trading coverage.",
     category: "Fleet Update",
   },
   {
     date: "02 Dec 2025",
     title: "ESG Report 2025: Progress on Sustainability Goals",
-    excerpt: "SRTT Marine publishes its annual ESG report, highlighting advancements in environmental performance and governance standards.",
+    excerpt: "APC Marine publishes its annual ESG report, highlighting advancements in environmental performance and governance standards.",
     category: "ESG",
   },
   {
@@ -29,14 +29,14 @@ const newsItems = [
   },
   {
     date: "05 Sep 2025",
-    title: "SRTT Marine Achieves ISO 9001:2015 Recertification",
+    title: "APC Marine Achieves ISO 9001:2015 Recertification",
     excerpt: "Successful recertification underscores our commitment to quality management systems and continuous improvement in all operations.",
     category: "Certification",
   },
   {
     date: "22 Jul 2025",
     title: "New Trade Route: Asia-South America Chemical Corridor",
-    excerpt: "SRTT Marine expands coverage with a dedicated chemical tanker service connecting major Asian and South American ports.",
+    excerpt: "APC Marine expands coverage with a dedicated chemical tanker service connecting major Asian and South American ports.",
     category: "Operations",
   },
   {
@@ -49,7 +49,7 @@ const newsItems = [
 
 const News = () => (
   <>
-    <PageHero title="News & Insights" subtitle="Stay updated with the latest from SRTT Marine and the global maritime industry" image={aboutImg} />
+    <PageHero title="News & Insights" subtitle="Stay updated with the latest from APC Marine and the global maritime industry" image={aboutImg} />
 
     <section className="py-24 bg-background">
       <div className="container max-w-5xl">
