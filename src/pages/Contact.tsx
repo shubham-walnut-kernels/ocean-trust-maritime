@@ -10,10 +10,10 @@ import heroImg from "@/assets/hero-ship.jpg";
 import { useToast } from "@/hooks/use-toast";
 
 const contactInfo = [
-  { icon: MapPin, label: "Address", value: "8 Temasek Boulevard, Suntec Tower 3, #22-02A, Singapore 038988" },
-  { icon: Phone, label: "Phone", value: "+65 6291 2122" },
-  { icon: Mail, label: "Email", value: "info@apcmarine.com" },
-  { icon: Clock, label: "Office Hours", value: "Mon – Fri: 09:00 – 18:00 (SGT)" },
+  { icon: MapPin, label: "Address", value: "Office 4862 DMCC Business Centre Level No 1, Jewellery & Gemplex 3, P.O. Box 48800" },
+  { icon: Phone, label: "Phone", value: "+65 6266 1749" },
+  { icon: Mail, label: "Email", value: "operations@apcmarineshipping.com" },
+  { icon: Clock, label: "Office Hours", value: "Mon – Fri: 09:00 – 18:00" },
 ];
 
 const Contact = () => {
