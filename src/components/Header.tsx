@@ -50,7 +50,7 @@ const Header = () => {
               APC Marine
             </span>
             <span className="text-[10px] uppercase tracking-[0.3em] text-ocean-light">
-              Tanker Pools
+              Services &amp; Trading DMCC
             </span>
           </div>
         </Link>
@@ -99,7 +99,7 @@ const Header = () => {
           )}
           <Link to="/contact">
             <Button variant="outline" size="sm" className="ml-4 border-ocean text-ocean-light hover:bg-ocean hover:text-accent-foreground">
-              Ship With Us
+              Get in Touch
             </Button>
           </Link>
         </nav>

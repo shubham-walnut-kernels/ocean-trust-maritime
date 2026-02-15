@@ -12,28 +12,28 @@ const fadeUp = {
 };
 
 const cargoTypes = [
-  "Chemicals & Speciality Products",
   "Vegetable Oils & Fats",
+  "Bulk Liquid Chemicals",
   "Petroleum Products",
-  "Crude Oil",
   "Clean Petroleum Products",
-  "Biofuels & Renewable Products",
+  "Crude Oil",
+  "Dry Bulk Commodities",
 ];
 
 const advantages = [
-  { icon: Package, title: "Diverse Cargo Capability", desc: "Our fleet handles a wide range of chemical, oil, and vegetable oil cargoes with vessels equipped to IMO II and IMO III standards." },
-  { icon: Globe, title: "Global Trading Coverage", desc: "Worldwide operational coverage across major chemical and oil trade routes, connecting key loading and discharge ports globally." },
-  { icon: Shield, title: "Safety & Compliance", desc: "Rigorous vetting and compliance standards ensuring all vessels meet the highest safety and environmental requirements." },
-  { icon: Clock, title: "Operational Reliability", desc: "Consistent, on-time performance backed by experienced operations and chartering teams managing cargo movements 24/7." },
+  { icon: Package, title: "Diverse Cargo Capability", desc: "Our fleet handles a wide range of liquid and dry bulk cargoes including vegetable oil, chemicals, petroleum products and other commodities." },
+  { icon: Globe, title: "Global Trading Coverage", desc: "Operational coverage across the Middle Eastern Gulf, Red Sea, East & West Africa, Indian Ocean, Indian subcontinent, and Far Eastern markets." },
+  { icon: Shield, title: "Safety & Compliance", desc: "Rigorous vetting and compliance standards ensuring all vessels meet the highest safety and environmental requirements for cargo transport." },
+  { icon: Clock, title: "Operational Reliability", desc: "Consistent, on-time performance backed by experienced operations teams managing cargo movements around the clock, ensuring quick turnaround times." },
 ];
 
 const Charterers = () => (
   <>
-    <PageHero title="For Charterers" subtitle="Reliable chemical and oil tanker solutions with global coverage and operational excellence" image={heroImg} />
+    <PageHero title="For Charterers" subtitle="Reliable maritime transportation solutions with global coverage and operational excellence" image={heroImg} />
 
     <section className="py-24 bg-background">
       <div className="container">
-        <SectionHeading label="Our Capabilities" title="Reliable Cargo Transport Solutions" description="We provide charterers with access to a modern, well-maintained fleet of chemical and oil tankers, ensuring safe and efficient cargo delivery worldwide." />
+        <SectionHeading label="Our Capabilities" title="Reliable Cargo Transport Solutions" description="APC Marine Services and Trading DMCC provides charterers with access to a managed fleet of vessels, ensuring safe and efficient cargo delivery worldwide." />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {advantages.map((a, i) => (
             <motion.div key={a.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="flex gap-6 p-6 bg-card rounded-xl shadow-card">
@@ -52,7 +52,7 @@ const Charterers = () => (
 
     <section className="py-24 bg-muted">
       <div className="container max-w-4xl">
-        <SectionHeading label="Cargo Types" title="What We Carry" description="Our fleet is equipped to handle a broad range of liquid bulk cargoes with the highest safety and quality standards." />
+        <SectionHeading label="Cargo Types" title="What We Carry" description="Our fleet is equipped to handle a broad range of liquid bulk and dry bulk cargoes with the highest safety and quality standards." />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {cargoTypes.map((cargo, i) => (
             <motion.div key={cargo} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="flex items-center gap-4 bg-card rounded-lg p-5 shadow-card">

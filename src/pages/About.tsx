@@ -17,20 +17,23 @@ const esgPrinciples = [
 
 const About = () => (
   <>
-    <PageHero title="About APC Marine" subtitle="Leadership Through Service – Delivering excellence in tanker pool operations worldwide" image={aboutImg} />
+    <PageHero title="About APC Marine" subtitle="Integrity with Excellence – Delivering specialised chartering and shipping operations worldwide" image={aboutImg} />
 
     <section className="py-24 bg-background">
       <div className="container max-w-4xl">
-        <SectionHeading label="Our Story" title="Dedicated to Quality Shipping" />
+        <SectionHeading label="Our Story" title="Who We Are" />
         <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
           <p>
-            At APC Marine, we go the distance with you. We are dedicated to delivering quality shipping anchored on reliability, safety, efficiency, while ensuring the utmost transparency. As a leading tanker pool operator, we specialise in the commercial asset management of chemical and oil tankers, trading worldwide in chemicals, vegetable oils, petroleum products, and crude oil.
+            APC Marine Services and Trading DMCC is a global provider of oil, chemical and dry bulk shipping services, managing a fleet of sea-going vessels. Since 2016, we have been making international transportation of cargoes hassle-free, allowing our clients to focus on their core business priorities while we handle complex maritime logistics.
           </p>
           <p>
-            Our experienced team combines deep maritime expertise with a commercial approach that maximises value for both shipowners and charterers. With a track record of over 20,000 vessel days yearly and operations spanning more than 2,000 ports globally, we have established ourselves as a trusted name in the tanker pool industry.
+            We provide logistic solutions for vegetable oil, bulk liquid chemicals, petroleum products and other commodities worldwide, at the least possible time and in a cost-effective manner. Our senior and experienced team have a true passion for finding solutions, with the skills and determination to transport any shape or size of cargo to any part of the globe.
           </p>
           <p>
-            APC Marine is committed to conducting business ethically and responsibly, in adherence to internationally recognised Environmental, Social and Governance standards, as set forth in the Ten Principles of the UN Global Compact.
+            Ship chartering is the core activity of our commercial operation. We seek and negotiate employment for vessels to secure the best available opportunities, optimise earnings, and position tonnage to the best benefit of owners in constantly changing market conditions.
+          </p>
+          <p>
+            The company has concentrated on the Middle Eastern Gulf, Red Sea, East & West Africa, Indian Ocean, Indian subcontinent, Singapore/Malaysia range and Far Eastern China/South Korea range markets, growing into one of the progressive providers of clean/dirty petroleum, bulk chemical, vegetable/palm oil and dry bulk cargo transportation.
           </p>
         </div>
       </div>
@@ -38,7 +41,7 @@ const About = () => (
 
     <section className="py-24 bg-muted">
       <div className="container">
-        <SectionHeading label="Our Commitment" title="ESG & Responsible Shipping" description="Aligned with the UN Global Compact, we are dedicated to sustainable and responsible maritime operations." />
+        <SectionHeading label="Our Commitment" title="ESG & Responsible Shipping" description="We are dedicated to sustainable and responsible maritime operations across all our global services." />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {esgPrinciples.map((p, i) => (
             <motion.div key={p.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="bg-card rounded-xl p-8 shadow-card">
@@ -55,13 +58,13 @@ const About = () => (
 
     <section className="py-24 bg-background">
       <div className="container">
-        <SectionHeading label="Global Presence" title="Worldwide Operations" description="Our operational network spans the globe, ensuring we can meet the needs of shipowners and charterers wherever they are." />
+        <SectionHeading label="Global Presence" title="Worldwide Operations" description="Our operational network spans key maritime trade corridors, ensuring we meet client needs wherever they are." />
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { value: "20,000+", label: "Vessel Days Yearly" },
-            { value: "2,000+", label: "Ports Called" },
-            { value: "8 MMT+", label: "Cargo Tonnes" },
-            { value: "25+", label: "Years Experience" },
+            { value: "Since 2016", label: "Established" },
+            { value: "6+", label: "Regional Markets" },
+            { value: "15+", label: "Major Clients" },
+            { value: "24/7", label: "Operations Support" },
           ].map((m, i) => (
             <motion.div key={m.label} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}>
               <div className="text-3xl md:text-4xl font-display font-bold text-ocean">{m.value}</div>

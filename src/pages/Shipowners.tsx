@@ -12,28 +12,28 @@ const fadeUp = {
 };
 
 const benefits = [
-  { icon: TrendingUp, title: "Maximised Earnings", desc: "Our pool structure provides competitive earnings through optimised vessel deployment and cargo matching across the global fleet." },
-  { icon: Eye, title: "Full Transparency", desc: "Complete visibility into commercial performance with detailed reporting and regular voyage updates for every vessel in the pool." },
-  { icon: BarChart3, title: "Professional Management", desc: "Expert commercial asset management that reduces your operational burden while increasing fleet utilisation and returns." },
-  { icon: Shield, title: "Risk Mitigation", desc: "Pool participation spreads market risk across multiple vessels and trades, providing more stable and predictable returns." },
+  { icon: TrendingUp, title: "Optimised Earnings", desc: "Our commercial operations seek and negotiate the best employment available to optimise earnings and position tonnage for maximum benefit in changing market conditions." },
+  { icon: Eye, title: "Full Transparency", desc: "Complete visibility into commercial performance with detailed reporting and regular updates on every vessel under our management." },
+  { icon: BarChart3, title: "Professional Management", desc: "Expert commercial asset management by a senior team with deep industry knowledge, reducing your operational burden while increasing returns." },
+  { icon: Shield, title: "Risk Mitigation", desc: "Diversified market exposure across multiple trade corridors including Middle East, Africa, Indian Ocean, and Far East regions." },
 ];
 
 const features = [
-  "Competitive pool earnings based on vessel performance",
-  "Transparent pool accounting and distribution",
-  "Regular performance reporting and market updates",
-  "Global trading coverage across major cargo corridors",
+  "Competitive earnings through optimised vessel deployment",
+  "Transparent accounting and performance reporting",
+  "Regular market updates and voyage intelligence",
+  "Global trading coverage across six major regional markets",
   "Experienced chartering team with deep market knowledge",
   "Compliance with international safety and environmental standards",
 ];
 
 const Shipowners = () => (
   <>
-    <PageHero title="For Shipowners" subtitle="Maximise your vessel earnings through our professionally managed tanker pools" image={fleetImg} />
+    <PageHero title="For Shipowners" subtitle="Maximise your vessel earnings through our professionally managed maritime operations" image={fleetImg} />
 
     <section className="py-24 bg-background">
       <div className="container">
-        <SectionHeading label="Pool Benefits" title="Why Join APC Marine Pools" description="Our tanker pools offer shipowners a proven platform to maximise vessel earnings while maintaining full commercial transparency." />
+        <SectionHeading label="Owner Benefits" title="Why Partner with APC Marine" description="APC Marine Services and Trading DMCC offers shipowners a proven platform to maximise vessel earnings while maintaining full commercial transparency." />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {benefits.map((b, i) => (
             <motion.div key={b.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="flex gap-6 p-6 bg-card rounded-xl shadow-card">
@@ -56,7 +56,7 @@ const Shipowners = () => (
           <div>
             <SectionHeading label="What We Offer" title="Commercial Asset Management" align="left" />
             <p className="text-muted-foreground leading-relaxed mb-8">
-              We provide comprehensive commercial management services, handling all aspects of chartering, voyage planning, and cargo operations. Our experienced team ensures your vessels are optimally deployed to achieve the best possible earnings in all market conditions.
+              We provide comprehensive commercial management services, handling all aspects of chartering, voyage planning, and cargo operations. Our experienced team ensures your vessels are optimally deployed to achieve the best possible earnings in all market conditions, drawing on expertise across the Middle Eastern Gulf, Red Sea, East & West Africa, Indian Ocean, and Far East corridors.
             </p>
             <ul className="space-y-3 mb-8">
               {features.map((f) => (
@@ -68,7 +68,7 @@ const Shipowners = () => (
             </ul>
             <Link to="/contact">
               <Button className="bg-ocean hover:bg-ocean-light text-accent-foreground font-semibold">
-                Join Our Fleet <ArrowRight className="w-4 h-4 ml-2" />
+                Partner With Us <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
           </div>

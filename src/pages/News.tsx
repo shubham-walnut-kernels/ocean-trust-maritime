@@ -10,46 +10,46 @@ const fadeUp = {
 
 const newsItems = [
   {
-    date: "15 Jan 2026",
-    title: "APC Marine Expands Chemical Tanker Pool with New Vessel Additions",
-    excerpt: "Two new 19,900 DWT IMO II chemical tankers have joined the APC Marine pool, strengthening our global chemical trading coverage.",
-    category: "Fleet Update",
-  },
-  {
-    date: "02 Dec 2025",
-    title: "ESG Report 2025: Progress on Sustainability Goals",
-    excerpt: "APC Marine publishes its annual ESG report, highlighting advancements in environmental performance and governance standards.",
-    category: "ESG",
-  },
-  {
-    date: "18 Oct 2025",
-    title: "Chemical Tanker Market Outlook: Q4 2025 Review",
-    excerpt: "An industry analysis of chemical tanker freight trends and market dynamics heading into the new year.",
-    category: "Market Insight",
-  },
-  {
-    date: "05 Sep 2025",
-    title: "APC Marine Achieves ISO 9001:2015 Recertification",
-    excerpt: "Successful recertification underscores our commitment to quality management systems and continuous improvement in all operations.",
-    category: "Certification",
-  },
-  {
-    date: "22 Jul 2025",
-    title: "New Trade Route: Asia-South America Chemical Corridor",
-    excerpt: "APC Marine expands coverage with a dedicated chemical tanker service connecting major Asian and South American ports.",
+    date: "10 Jan 2026",
+    title: "APC Marine Expands Voyage Charter Operations in Far East Corridor",
+    excerpt: "Strengthening our presence in the China/South Korea range with additional voyage charter partnerships to serve growing cargo demand.",
     category: "Operations",
   },
   {
-    date: "10 Jun 2025",
-    title: "Industry Event: Singapore Maritime Week 2025 Recap",
-    excerpt: "Key takeaways from Singapore Maritime Week, including developments in decarbonisation and digital shipping.",
+    date: "15 Nov 2025",
+    title: "New Time Charter Agreement for PVT Class Vessels",
+    excerpt: "APC Marine Services and Trading DMCC secures long-term time charter agreements, expanding our managed fleet capacity in the Indian Ocean region.",
+    category: "Fleet Update",
+  },
+  {
+    date: "20 Sep 2025",
+    title: "Expanding Vegetable Oil Transportation Services",
+    excerpt: "Growing demand for vegetable oil and palm oil shipments drives fleet expansion across South-East Asia and Indian subcontinent trade routes.",
+    category: "Market Insight",
+  },
+  {
+    date: "05 Aug 2025",
+    title: "APC Marine Strengthens Middle Eastern Gulf Operations",
+    excerpt: "Enhanced operational capacity in the Middle Eastern Gulf and Red Sea regions, supporting petroleum products and chemical cargo movements.",
+    category: "Operations",
+  },
+  {
+    date: "18 Jun 2025",
+    title: "Partnership with Leading Port Agencies Across Africa",
+    excerpt: "New harbour service partnerships established in East & West Africa, providing comprehensive port agency support for cargo loading and discharge.",
+    category: "Partnerships",
+  },
+  {
+    date: "02 Apr 2025",
+    title: "APC Marine at Singapore Maritime Week 2025",
+    excerpt: "Our team participated in Singapore Maritime Week, connecting with industry partners and discussing developments in global maritime trade.",
     category: "Industry",
   },
 ];
 
 const News = () => (
   <>
-    <PageHero title="News & Insights" subtitle="Stay updated with the latest from APC Marine and the global maritime industry" image={aboutImg} />
+    <PageHero title="News & Insights" subtitle="Stay updated with the latest from APC Marine Services and Trading DMCC" image={aboutImg} />
 
     <section className="py-24 bg-background">
       <div className="container max-w-5xl">

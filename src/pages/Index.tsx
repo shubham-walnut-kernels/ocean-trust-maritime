@@ -7,33 +7,33 @@ import heroImg from "@/assets/hero-ship.jpg";
 import aboutImg from "@/assets/about-ship.jpg";
 
 const metrics = [
-  { value: "20,000+", label: "Vessel Days Yearly" },
-  { value: "2,000+", label: "Ports Called Annually" },
-  { value: "8 MMT+", label: "Tonnes of Cargo" },
+  { value: "Since 2016", label: "Serving Global Markets" },
+  { value: "6+", label: "Regional Markets" },
+  { value: "15+", label: "Major Clients Worldwide" },
 ];
 
 const services = [
   {
     icon: Ship,
-    title: "Chemical Tanker Pools",
-    desc: "Specialised commercial management of chemical tankers trading worldwide in chemicals and vegetable oils.",
+    title: "Marine Transportation",
+    desc: "International maritime transport including freight solutions, delivering cargo to any point of the globe efficiently and reliably.",
   },
   {
     icon: Droplets,
-    title: "Oil Tanker Pools",
-    desc: "Expert management of oil tankers carrying petroleum products and crude oil across global routes.",
+    title: "Logistics Management",
+    desc: "End-to-end logistics planning and management from origin to destination, meeting customer requirements with precision.",
   },
   {
     icon: BarChart3,
-    title: "Commercial Management",
-    desc: "Full-service asset management delivering optimal utilisation and competitive earnings for shipowners.",
+    title: "Harbour Services",
+    desc: "Full range of port services at load and discharge points, with trusted port agency partnerships ensuring seamless operations.",
   },
 ];
 
 const values = [
-  { icon: Shield, title: "Safety & Compliance", desc: "Rigorous safety standards and full regulatory compliance across all operations." },
-  { icon: Globe, title: "Global Coverage", desc: "Worldwide trading routes spanning major chemical, oil, and bulk cargo corridors." },
-  { icon: Anchor, title: "ESG Commitment", desc: "Adherence to UN Global Compact principles and responsible business practices." },
+  { icon: Shield, title: "Safety & Compliance", desc: "Rigorous safety standards and full regulatory compliance across all maritime operations worldwide." },
+  { icon: Globe, title: "Global Coverage", desc: "Operations spanning the Middle East, Africa, Indian Ocean, South-East Asia, and Far East trade corridors." },
+  { icon: Anchor, title: "Integrity & Excellence", desc: "Delivering on our promise with ethical business practices and a commitment to superior service." },
 ];
 
 const fadeUp = {
@@ -50,7 +50,7 @@ const Index = () => {
     <>
       {/* Hero */}
       <section className="relative h-screen min-h-[700px] flex items-center overflow-hidden">
-        <img src={heroImg} alt="Chemical tanker at sea" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroImg} alt="Maritime vessel at sea" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
         <div className="absolute inset-0 hero-overlay" />
         <div className="relative z-10 container">
           <motion.div
@@ -60,23 +60,23 @@ const Index = () => {
             className="max-w-3xl"
           >
             <span className="inline-block text-xs font-semibold uppercase tracking-[0.3em] text-ocean-light mb-6 font-sans">
-              Global Tanker Pool Operator
+              Global Maritime Services
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold text-primary-foreground leading-[1.1] mb-6">
-              Leadership Through Service
+              Worldwide Marine Transportation Services
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/70 max-w-xl mb-10 leading-relaxed">
-              Delivering quality shipping anchored on reliability, safety, and transparency. Specialising in chemical and oil tanker pools trading worldwide.
+              APC Marine Services and Trading DMCC is a global provider of oil, chemical and dry bulk shipping services, offering competitive rates and reliable transportation solutions.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contact">
                 <Button size="lg" className="bg-ocean hover:bg-ocean-light text-accent-foreground font-semibold px-8">
-                  Ship With Us <ArrowRight className="w-4 h-4 ml-2" />
+                  Get in Touch <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
               <Link to="/shipowners">
                 <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-                  Join Our Fleet
+                  Our Services
                 </Button>
               </Link>
             </div>
@@ -124,10 +124,10 @@ const Index = () => {
                 align="left"
               />
               <p className="text-muted-foreground leading-relaxed mb-6">
-                At APC Marine, we are dedicated to delivering quality shipping anchored on reliability, safety, efficiency, while ensuring the utmost transparency. As a leading tanker pool operator, we specialise in the commercial asset management of chemical and oil tankers, trading worldwide in chemicals, vegetable oils, petroleum products, and crude oil.
+                Since 2016, APC Marine Services and Trading DMCC has been making international transportation of cargoes hassle-free. As a fully integrated provider of shipping management services, we offer access to information from across the globe as owner, operator, and active charterer.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                APC Marine is committed to conducting business ethically and responsibly, in adherence to internationally recognised Environmental, Social and Governance standards, as set forth in the Ten Principles of the UN Global Compact.
+                We provide logistic solutions for vegetable oil, bulk liquid chemicals, petroleum products and other commodities worldwide, delivering maximum results with minimal effort so you can focus on your core business priorities.
               </p>
               <Link to="/about">
                 <Button variant="outline" className="border-ocean text-ocean hover:bg-ocean hover:text-accent-foreground">
@@ -145,12 +145,12 @@ const Index = () => {
             >
               <img
                 src={aboutImg}
-                alt="Tanker at port"
+                alt="Maritime vessel at port"
                 className="rounded-xl shadow-card-hover w-full h-[400px] object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-ocean rounded-xl p-6 shadow-card-hover">
-                <div className="text-3xl font-display font-bold text-accent-foreground">25+</div>
-                <div className="text-sm text-accent-foreground/80">Years of Excellence</div>
+                <div className="text-3xl font-display font-bold text-accent-foreground">2016</div>
+                <div className="text-sm text-accent-foreground/80">Established</div>
               </div>
             </motion.div>
           </div>
@@ -163,7 +163,7 @@ const Index = () => {
           <SectionHeading
             label="Our Services"
             title="Comprehensive Maritime Solutions"
-            description="From chemical tankers to oil carriers, we deliver end-to-end commercial management that maximises vessel performance and earnings."
+            description="From marine transportation to harbour services, we deliver end-to-end shipping management that ensures reliable and cost-effective cargo delivery worldwide."
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((s, i) => (
@@ -193,7 +193,7 @@ const Index = () => {
           <SectionHeading
             label="Why APC Marine"
             title="Built on Trust & Transparency"
-            description="Our commitment to safety, sustainability, and operational excellence sets us apart in the global maritime industry."
+            description="Our commitment to safety, integrity, and operational excellence sets us apart in the global maritime industry."
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {values.map((v, i) => (
@@ -233,12 +233,12 @@ const Index = () => {
               Together We Go Further
             </h2>
             <p className="text-lg text-primary-foreground/70 max-w-xl mx-auto mb-10">
-              Whether you're a shipowner looking to maximise earnings or a charterer seeking reliable cargo transport, APC Marine is your trusted partner.
+              Whether you need reliable cargo transport or expert commercial management for your vessels, APC Marine Services and Trading DMCC is your trusted maritime partner.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/shipowners">
                 <Button size="lg" className="bg-ocean hover:bg-ocean-light text-accent-foreground font-semibold px-8">
-                  Join Our Fleet
+                  Our Services
                 </Button>
               </Link>
               <Link to="/contact">
