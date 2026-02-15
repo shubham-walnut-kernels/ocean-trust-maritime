@@ -75,7 +75,7 @@ const Index = () => {
                 </Button>
               </Link>
               <Link to="/shipowners">
-                <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+                <Button size="lg" className="bg-ocean text-white hover:bg-ocean/90 px-8">
                   Our Services
                 </Button>
               </Link>
@@ -237,7 +237,7 @@ const Index = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/shipowners">
-                <Button size="lg" className="bg-ocean hover:bg-ocean-light text-accent-foreground font-semibold px-8">
+                <Button size="lg" className="bg-ocean text-white hover:bg-ocean/90 px-8">
                   Our Services
                 </Button>
               </Link>
