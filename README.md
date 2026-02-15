@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+🚢 APC Marine Services and Trading DMCC
+Official Corporate Website
 
-## Project info
+This repository contains the official website of APC Marine Services and Trading DMCC, a global maritime transportation and logistics provider delivering reliable tanker and bulk shipping solutions across international trade routes.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 Live Website:
+https://shubham-walnut-kernels.github.io/ocean-trust-maritime/
 
-## How can I edit this code?
+🌍 About APC Marine Services and Trading DMCC
 
-There are several ways of editing your application.
+APC Marine Services and Trading DMCC operates within the global maritime sector, providing structured commercial vessel operations, chartering services, and shipping logistics solutions.
 
-**Use Lovable**
+Our operations are built on:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Operational reliability
 
-Changes made via Lovable will be committed automatically to this repo.
+Commercial transparency
 
-**Use your preferred IDE**
+Safety and compliance
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Global trade coverage
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Long-term chartering relationships
 
-Follow these steps:
+The website serves as a digital corporate platform to present our fleet profile, operational model, and global maritime engagement.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🚢 Fleet Overview
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The website outlines:
 
-# Step 3: Install the necessary dependencies.
-npm i
+Owned Vessels
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Time Charter Vessels
 
-**Edit a file directly in GitHub**
+Voyage Charter Vessels
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Each vessel category reflects APC Marine Services and Trading DMCC’s active participation in global maritime transportation, ensuring flexibility across oil, chemical, and dry bulk trade routes.
 
-**Use GitHub Codespaces**
+For up-to-date fleet availability and specifications, clients are encouraged to contact our operations team directly.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+⚓ Services & Capabilities
 
-## What technologies are used for this project?
+Through structured vessel management and chartering arrangements, APC Marine Services and Trading DMCC provides:
 
-This project is built with:
+Maritime transportation solutions
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Time charter operations
 
-## How can I deploy this project?
+Voyage charter engagements
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Commercial fleet deployment
 
-## Can I connect a custom domain to my Lovable project?
+International trade route coverage
 
-Yes, you can!
+Our operational model is designed to support both shipowners and charterers with professional maritime execution.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📍 Corporate Information
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+APC Marine Services and Trading DMCC
+Office 4862 DMCC Business Centre
+Level No 1, Jewellery & Gemplex 3
+P.O. Box 48800
+
+📧 operations@apcmarineshipping.com
+
+💼 Purpose of This Repository
+
+This repository contains the source code and deployment configuration for the official APC Marine Services and Trading DMCC website.
+
+The website is:
+
+Professionally structured
+
+Corporate-focused
+
+Automatically deployed via GitHub Actions
+
+Hosted securely through GitHub Pages
+
+Maintained for branding consistency and operational accuracy
+
+🔒 Corporate Use Notice
+
+All content, branding, vessel information, and operational references within this repository are intended for official use by APC Marine Services and Trading DMCC.
+
+Unauthorized use, reproduction, or misrepresentation of the brand or operational content is not permitted.
+
+📈 Continuous Development
+
+The website will continue to evolve in alignment with:
+
+Fleet updates
+
+Corporate milestones
+
+Operational developments
+
+Market positioning
+
+For business inquiries, partnership discussions, or chartering opportunities, please contact our operations team directly.
