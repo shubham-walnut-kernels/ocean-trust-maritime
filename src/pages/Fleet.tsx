@@ -11,6 +11,7 @@ const ownedVessels = [
 const timeChartered = [
   { name: "PVT SATURN", imo: "9432385", grt: "8,530", dwt: "13,159.67 MT", draft: "8.71 M", category: "Time Charter" },
   { name: "PVT NEPTUNE", imo: "9404900", grt: "8,590", dwt: "12,978.016 MT", draft: "8.688 M", category: "Time Charter" },
+  { name: "MT STOLT KIKYO", imo: "-", grt: "-", dwt: "-", draft: "-", category: "Time Charter" },
 ];
 
 const voyageChartered = [
