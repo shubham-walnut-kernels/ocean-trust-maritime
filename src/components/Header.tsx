@@ -98,7 +98,7 @@ const Header = () => {
             )
           )}
           <Link to="/contact">
-            <Button variant="outline" size="sm" className="ml-4 border-ocean text-ocean-light hover:bg-ocean hover:text-accent-foreground">
+            <Button size="sm" className="ml-4 bg-ocean text-white border-ocean hover:bg-ocean/90" >
               Get in Touch
             </Button>
           </Link>
