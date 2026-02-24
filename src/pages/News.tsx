@@ -8,7 +8,7 @@ const fadeUp = {
   visible: (i: number) => ({ opacity: 1, y: 0, transition: { duration: 0.5, delay: i * 0.1 } }),
 };
 
-const newsItems = [
+const blogItems = [
   {
     date: "10 Jan 2026",
     title: "APC Marine Expands Voyage Charter Operations in Far East Corridor",
@@ -47,15 +47,15 @@ const newsItems = [
   },
 ];
 
-const News = () => (
+const Blog = () => (
   <>
-    <PageHero title="News & Insights" subtitle="Stay updated with the latest from APC Marine Services and Trading DMCC" image={aboutImg} />
+    <PageHero title="Blog & Insights" subtitle="Stay updated with the latest from APC Marine Services and Trading DMCC" image={aboutImg} />
 
     <section className="py-24 bg-background">
       <div className="container max-w-5xl">
-        <SectionHeading label="Latest Updates" title="Company News & Industry Insights" />
+        <SectionHeading label="Latest Updates" title="Company Perspectives & Industry Insights" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {newsItems.map((item, i) => (
+          {blogItems.map((item, i) => (
             <motion.article
               key={item.title}
               initial="hidden"
@@ -84,4 +84,4 @@ const News = () => (
   </>
 );
 
-export default News;
+export default Blog;
