@@ -10,7 +10,7 @@ import About from "./pages/About";
 import Shipowners from "./pages/Shipowners";
 import Charterers from "./pages/Charterers";
 import Fleet from "./pages/Fleet";
-import News from "./pages/News";
+import Blog from "./pages/News";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -30,7 +30,7 @@ const App = () => (
             <Route path="/shipowners" element={<Shipowners />} />
             <Route path="/charterers" element={<Charterers />} />
             <Route path="/fleet" element={<Fleet />} />
-            <Route path="/news" element={<News />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
