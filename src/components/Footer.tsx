@@ -27,7 +27,7 @@ const Footer = () => (
               { label: "Shipowners", path: "/shipowners" },
               { label: "Charterers", path: "/charterers" },
               { label: "Fleet List", path: "/fleet" },
-              { label: "News", path: "/news" },
+              { label: "Blog", path: "/blog" },
             ].map((link) => (
               <Link
                 key={link.path}
@@ -75,7 +75,7 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-3 text-sm text-primary-foreground/60">
               <Phone className="w-4 h-4 shrink-0 text-ocean-light" />
-              <span>+65 6266 1749</span>
+              <span>+971 54 586 9169</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-primary-foreground/60">
               <Mail className="w-4 h-4 shrink-0 text-ocean-light" />
