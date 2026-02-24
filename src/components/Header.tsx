@@ -14,7 +14,7 @@ const navItems = [
     ],
   },
   { label: "Fleet List", path: "/fleet" },
-  { label: "News", path: "/news" },
+  { label: "Blog", path: "/blog" },
   { label: "Contact Us", path: "/contact" },
 ];
 
