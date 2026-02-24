@@ -12,7 +12,7 @@ import { useToast } from "@/hooks/use-toast";
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "Office 4862 DMCC Business Centre Level No 1, Jewellery & Gemplex 3, P.O. Box 48800" },
   { icon: Phone, label: "Phone", value: "+971 54 586 9169" },
-  { icon: Mail, label: "Email", value: "operations@apcmarineshipping.com" },
+  { icon: Mail, label: "Email", value: "info@apcmarineshipping.com" },
   { icon: Clock, label: "Office Hours", value: "Mon – Fri: 09:00 – 18:00" },
 ];
 
