@@ -79,7 +79,7 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-3 text-sm text-primary-foreground/60">
               <Mail className="w-4 h-4 shrink-0 text-ocean-light" />
-              <span>operations@apcmarineshipping.com</span>
+              <span>info@apcmarineshipping.com</span>
             </div>
           </div>
         </div>
