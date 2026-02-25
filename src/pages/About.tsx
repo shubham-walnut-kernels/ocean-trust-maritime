@@ -4,6 +4,17 @@ import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import aboutImg from "@/assets/about-ship.jpg";
 
+const clients = [
+  "Client A Shipping",
+  "Global Energy Trading",
+  "Oceanic Bulk Logistics",
+  "Far East Commodities",
+  "Red Sea Petroleum",
+  "Africa Port Agency",
+  "Singapore Maritime Traders",
+  "Indian Ocean Exports",
+];
+
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({ opacity: 1, y: 0, transition: { duration: 0.5, delay: i * 0.1 } }),
@@ -74,6 +85,36 @@ const About = () => (
         </div>
       </div>
     </section>
+
+    <section className="py-24 bg-muted">
+      <div className="container">        
+        <SectionHeading
+          label="Our Clients"
+          title="Trusted by Global Industry Leaders"
+          description="We proudly support a diverse portfolio of clients across global maritime trade corridors."
+        />
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"          
+        >
+          {clients.map((name) => (
+            <div
+             key={name}
+             className="bg-card rounded-lg p-4 shadow-card flex items-center gap-3"
+           >
+             <div className="w-2 h-2 rounded-full bg-ocean shrink-0" />
+             <span className="font-medium text-foreground text-sm">
+               {name}
+             </span>
+           </div>
+         ))}
+       </motion.div>
+     </div>
+   </section>
   </>
 );
 
