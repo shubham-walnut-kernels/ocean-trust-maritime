@@ -5,16 +5,26 @@ import SectionHeading from "@/components/SectionHeading";
 import aboutImg from "@/assets/about-ship.jpg";
 
 const clients = [
-  "Client A Shipping",
-  "Global Energy Trading",
-  "Oceanic Bulk Logistics",
-  "Far East Commodities",
-  "Red Sea Petroleum",
-  "Africa Port Agency",
-  "Singapore Maritime Traders",
-  "Indian Ocean Exports",
+  "TATA INTERNATIONAL SINGAPORE PTE LTD",
+  "MEWAH OIL & FATS PTE LTD",
+  "PT UNILEVER OLEOCHEMICAL INDONESIA",
+  "DCW LIMITED",
+  "ARVEE INTERNATIONAL PTE LTD",
+  "COMMODITY CULTURE",
+  "NOVA CARRIERS (SINGAPORE) PTE LTD",
+  "ECO COMMODITY PTE LTD",
+  "PATANJALI FOODS LIMITED",
+  "OLAM GLOBAL AGRI PTE LTD",
+  "JUNAN RESOURCES (HONG KONG) CO., LTD.",
+  "HENGYI LOGISTICS INTERNATIONAL PTE LTD",
+  "CHEMLUBE",
+  "PETRON SINGAPORE TRADING PTE. LTD.",
+  "MITSUBISHI",
+  "MITSUI & CO., LTD.",
+  "MAC WORLD INDUSTRIES SDN BHD",
+  "SIAM TEMASEK INTERNATIONAL PTE LTD",
+  "GUJARAT ALKALIES AND CHEMICALS LTD",
 ];
-
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({ opacity: 1, y: 0, transition: { duration: 0.5, delay: i * 0.1 } }),
