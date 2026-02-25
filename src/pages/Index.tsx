@@ -7,7 +7,7 @@ import heroImg from "@/assets/hero-ship.jpg";
 import aboutImg from "@/assets/about-ship.jpg";
 
 const metrics = [
-  { value: "Since 2016", label: "Serving Global Markets" },
+  { value: "Since 2023", label: "Serving Global Markets" },
   { value: "6+", label: "Regional Markets" },
   { value: "15+", label: "Major Clients Worldwide" },
 ];
@@ -124,7 +124,7 @@ const Index = () => {
                 align="left"
               />
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Since 2016, APC Marine Services and Trading DMCC has been making international transportation of cargoes hassle-free. As a fully integrated provider of shipping management services, we offer access to information from across the globe as owner, operator, and active charterer.
+                Since 2023, APC Marine Services and Trading DMCC has been making international transportation of cargoes hassle-free. As a fully integrated provider of shipping management services, we offer access to information from across the globe as owner, operator, and active charterer.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 We provide logistic solutions for vegetable oil, bulk liquid chemicals, petroleum products and other commodities worldwide, delivering maximum results with minimal effort so you can focus on your core business priorities.
@@ -149,7 +149,7 @@ const Index = () => {
                 className="rounded-xl shadow-card-hover w-full h-[400px] object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-ocean rounded-xl p-6 shadow-card-hover">
-                <div className="text-3xl font-display font-bold text-accent-foreground">2016</div>
+                <div className="text-3xl font-display font-bold text-accent-foreground">2023</div>
                 <div className="text-sm text-accent-foreground/80">Established</div>
               </div>
             </motion.div>
